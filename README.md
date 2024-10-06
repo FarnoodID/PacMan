@@ -47,10 +47,10 @@ int move(char map[100][100], int side, int position, int column, int row, int *d
 }
 ```
 - Direction Mapping
-  - **8**: Up
-  - **6**: Right
-  - **2**: Down
-  - **4**: Left
+  - **Up Arrow**: Up
+  - **Right Arrow**: Right
+  - **Down Arrow**: Down
+  - **Left Arrow**: Left
 - The function checks if the next position is valid and updates the map accordingly. If Pacman collects a heart (`'*'`), it decreases the dot count; if it hits a wall (`'#'`), it decreases lives.
 
 
